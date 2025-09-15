@@ -43,6 +43,8 @@ function changeCurrency() {
     currencyName.innerHTML = "Euro";
     currencyImage.src = './assets/euro.png'
   }
+
+  convertValues()
 }
 
 currencySelect.addEventListener("change", changeCurrency);
