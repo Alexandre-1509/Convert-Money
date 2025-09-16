@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    appearance: none;
+}
+
+body {
+    background-color: #000;
+    background: url('./assets/background.jpg') fixed no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh auto;
+    width: 700px;
+    height: 700px;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 25px
+}
+
+img {
+    width: 300px;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px
+}
+
+input {
+    margin-top: 20px;
+    display: block;
+    height: 50px;
+    width: 250px;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+    background-color: #477195;
+    box-shadow: 1px 2px 3px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active{
+    opacity: .6;
+}
+
+.mensagem {
+    font-size: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.numero-sorteado {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #0000FF
+}
